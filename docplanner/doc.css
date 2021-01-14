@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+}
+.li, a, button {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:#949393;
+    text-decoration: none;
+ }
+ .main-header {
+     display: flex;
+     justify-content:space-between;
+     align-items: center;
+     max-width: 900px;
+     margin: 0 auto
+ }
+.logo { 
+  width: 268px;
+  height: 33px;
+ }
+.nav-links{
+    list-style: none;
+    margin-left: 80px;
+    display: flex;
+  }
+.nav-links li {
+    margin-right: 10px;
+}
+.nav_links li a {
+    transition: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+ }
+.nav_links li a:hover {
+    color:rgb(51, 209, 183);
+}
+.h1{
+    color: rgb(51, 209, 183);
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+}
+p{
+font-size: 18px;
+font-style: normal;
+line-height: initial;
+text-align: center;
+}
+.container1{
+    display: flex;
+}
+.box{ 
+    width: 272px;
+    height: 210px;
+    box-sizing: inherit;
+    padding: 20px;
+    position: relative;
+    border-radius: 6px;
+}
+.sky-blue{
+    background-color: rgb(85, 238, 210);
+}
+.blue{
+    background-color: rgb(73, 131, 240);
+}
+.blue-oil{
+    background-color: rgb(13, 13, 24);
+}
+h1,h2,option{
+    color: white;
+    font-style: inherit;
+    font-size: 19px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.h2{
+    color:  rgb(51, 209, 183);
+    text-align: start;
+    font-size: 25px;
+}
+.nav-links2{
+    list-style: none;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto
+}
+.l1{
+    display: inline-block;
+    padding: 23px;
+    margin-left: 15px;
+    align-self: center;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(196, 248, 239);
+    height: 210px;
+}
+.box2-green{
+    width: 250px;
+    height: 200px;
+    box-sizing: inherit;
+    padding: 20px;
+    position: relative;
+    border-radius: 6px;
+    background-color: white; 
+}
+ .h3{
+    color:rgb(51, 209, 183);
+    text-align: justify;
+    font-size: 25px;
+}
+.p2{
+font-size: 18px;
+font-style: normal;
+text-align: center;
+line-height: initial;
+}
+.h4{
+    color:rgb(51, 209, 183);
+    text-align: justify;
+    font-style: italic;
+    font-size: 19px;
+}
+.h5{
+    color:rgb(51, 209, 183);
+    text-align: center;
+    font-size: 25px;
+    
+}
+.p1{
+    text-align: center;
+    font-size: 25px;
+}
+.h6{
+    font-size: 30px;
+   text-align: start;
+}
+.warsaw{
+    border-radius: 8px;
+    width: 250px;
+    height: 250px;
+}
+.barcelone{
+    border-radius: 6px;
+    width: 250px;
+    height: 250px;
+}
+.istanbul{
+    border-radius: 6px;
+    width: 250px;
+    height: 250px; 
+}
+.Rome{
+    border-radius: 6px;
+    width: 250px;
+    height: 250px;
+}
+.Bologna{
+    border-radius: 6px;
+    width: 250px;
+    height: 250px;
+}
+.Curitiba{
+    border-radius: 6px;
+    width: 250px;
+    height: 250px;
+}
+.Mexico{
+    border-radius: 6px;
+    width: 250px;
+    height: 250px;
+}
+.container3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ .box3{
+display: flex; 
+justify-content: space-between;
+}
+.card-city{
+    width: 250px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+.color{
+    background-color: rgb(10, 112, 245);
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+ 
+ }
+ .color1{
+    background-color: rgb(10, 112, 245);
+    width: 170px;
+    height: 70px;
+    border-radius: 6px;
+    text-align: center;
+}
+.para {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto
+}
+
+.para-1 p{
+    text-align: justify;
+}
+
+.para-1 {
+    margin-right: 20px;
+}
