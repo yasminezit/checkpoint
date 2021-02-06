@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Shopping Cart</title>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+    <nav class="main-header">
+        <h1>SHOP</h1>
+        <ul>
+            <li class="Home"><a href="*">Home</a></li>
+            <li class="About"><a href="*">About</a></li>
+            <li class="cart">
+                <a href="cart.html">
+                    <ion-icon name="basket"></ion-icon>Cart <span>0</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <div class="container">
+            <div class="image">
+                <img src="./coffeecup.jpg" alt="coffeecup">
+                <h2> coffee cup</h2>
+                <h2>$10,00</h2>
+                <button class="add-cart cart1">Add cart</button>
+                <input type="hidden" value="15">
+            </div>
+            <div class="image">
+                <img src="./t-shirtpolo.jpg" alt="t-shirt">
+                <h2>t-shirt</h2>
+                <h2>$49,97</h2>
+                <button class="add-cart cart2">Add cart</button>
+                <input type="hidden" value="20">
+            </div>
+            <div class="image">
+                <img src="./ringlight.jpg" alt="ringlight">
+                <h2>ring light</h2>
+                <h2>$15,00</h2>
+                <button class="add-cart cart3">Add cart</button>
+                <input type="hidden" value="10">
+            </div>
+            <div class="image">
+                <img src="./sac.jpg" alt="bagTommy">
+                <h2>bag Tommy</h2>
+                <h2>$74,00</h2>
+                <button class="add-cart cart4">Add cart</button>
+                <input type="hidden" value="10">
+            </div>
+    </section>
+    <div class="products-container">
+        <div class="product-header">
+            <h4 class="product-title">PRODUCT</h4>
+            <h4 class="price">PRICE</h4>
+            <h4 class="quantity">QUANTITY</h4>
+            <h4 class="total">TOTAL</h4>
+        </div>
+        <div class="products">
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="store.js"></script>
+</body>
+
+</html>
